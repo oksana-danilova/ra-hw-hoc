@@ -1,0 +1,29 @@
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+}
+
+.task {
+    border: 2px solid red;
+}
+
+.task:hover {
+    border: 2px solid rgb(9, 142, 38);
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(9, 142, 38);
+    transition: all 0.3s;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    }
